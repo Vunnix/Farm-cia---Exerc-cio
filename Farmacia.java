@@ -297,6 +297,7 @@ public class Farmacia {
 
         String nome = JOptionPane.showInputDialog(null, "Informe o nome do medicamento que deseja remover: ");
         int codigo = 0;
+
         for (int i = 0; i < MAX; i++){
             if (cestaDeCompras[i] != null) {
                 if (cestaDeCompras[i].getCodigo() != 0 && !cestaDeCompras[i].getNome().equals(null) && !cestaDeCompras[i].getTipo().equals(null) && cestaDeCompras[i].getPreco() != 0) {
